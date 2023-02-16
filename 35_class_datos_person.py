@@ -7,6 +7,6 @@ class Persona:
         self.correo = correo
     def __str__(self):
         return 'Nombre: {}\nEdad: {}\nCorreo: {}'.format(self.nombre,self.edad,self.correo)
-david = Persona('David', '27','ivancho-995@hotmail.com')
+david = Persona('David', '27','prueba-python@hotmail.com')
 
 print(david)

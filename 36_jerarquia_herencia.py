@@ -13,7 +13,7 @@ class Estudiante(Persona):
         super().__init__(documento, nombre, correo)        
         self.carnet = carnet
         self.carrera = carrera
-david = Estudiante('950625','David','Pruebapython@col.co','15143','Programador') 
+david = Estudiante('950625','David','Prueba-python@col.co','15143','Programador') 
 
 print(isinstance(david, Estudiante))
 print(isinstance(david, Persona))
